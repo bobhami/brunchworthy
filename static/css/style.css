@@ -1,0 +1,59 @@
+/* AWESOME NEON EFFECT:
+color: #fff;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+letter-spacing: 5px;
+*/
+
+body {
+  font-family: Georgia;
+  line-height: 1.5;
+  font-size: 120%;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 1px;
+	color: #F8FCC1;
+  text-shadow: -1px 1px 2px #1693A7;
+
+
+	/*background: url('../images/coffee-shop.jpg');*/
+  background: url('../images/waffle.jpeg');
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 500px;
+  padding: 15px;
+  margin-top: 80px;
+  margin-left: 40px;
+}
+
+h1 {
+  font-family: Verdana;
+  font-weight: bold;
+	font-size: 44px;
+	margin-bottom: -20px;
+  letter-spacing: 1px;
+  text-shadow: -2px 2px 3px #1693A7;
+}
+
+h2 {
+  font-family: Verdana;
+	font-size: 29px;
+  line-height: 38px;
+  font-weight: normal;
+  color: #C8CF02;
+  text-shadow: -1px 1px 2px #1693A7;
+}
+
+a {
+	color: #E6781E;
+	text-decoration: none;
+}
+
+a:hover {
+  color: #C8CF02;
+}
